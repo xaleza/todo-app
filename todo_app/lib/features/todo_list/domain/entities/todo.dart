@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 
 class Todo extends Equatable {
   final String text;
+  final bool done = false;
 
   Todo({@required this.text});
 
